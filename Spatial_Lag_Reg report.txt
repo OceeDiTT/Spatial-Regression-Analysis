@@ -1,0 +1,40 @@
+>>03/14/23 06:34:07
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIAL LAG MODEL - MAXIMUM LIKELIHOOD ESTIMATION
+Data set            : south
+Spatial Weight      : southrk
+Dependent Variable  :        HR90  Number of Observations: 1412
+Mean dependent var  :      9.5493  Number of Variables   :    7
+S.D. dependent var  :     7.03637  Degrees of Freedom    : 1405
+Lag coeff.   (Rho)  :    0.328975
+
+R-squared           :    0.339353  Log likelihood        :    -4471.24
+Sq. Correlation     : -            Akaike info criterion :     8956.47
+Sigma-square        :     32.7089  Schwarz criterion     :     8993.24
+S.E of regression   :     5.71917
+
+-----------------------------------------------------------------------------
+       Variable       Coefficient     Std.Error       z-value    Probability
+-----------------------------------------------------------------------------
+            W_HR90      0.328975      0.0447276        7.35508     0.00000
+          CONSTANT       3.51822        1.82602        1.92672     0.05401
+              RD90       3.83328       0.233595          16.41     0.00000
+              PS90        1.7169        0.20245        8.48063     0.00000
+              UE90     -0.403438      0.0687694       -5.86653     0.00000
+              DV90      0.474457       0.112469        4.21856     0.00002
+              MA90    0.00212062      0.0479761      0.0442016     0.96474
+-----------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+DIAGNOSTICS FOR HETEROSKEDASTICITY 
+RANDOM COEFFICIENTS
+TEST                                     DF      VALUE        PROB
+Breusch-Pagan test                       5       631.0990     0.00000
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+SPATIAL LAG DEPENDENCE FOR WEIGHT MATRIX : southrk
+TEST                                     DF      VALUE        PROB
+Likelihood Ratio Test                    1        52.2735     0.00000
+============================== END OF REPORT ================================
+

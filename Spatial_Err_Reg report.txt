@@ -1,0 +1,40 @@
+>>03/14/23 06:45:24
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIAL ERROR MODEL - MAXIMUM LIKELIHOOD ESTIMATION 
+Data set            : south
+Spatial Weight      : southrk
+Dependent Variable  :        HR90  Number of Observations: 1412
+Mean dependent var  :    9.549301  Number of Variables   :    6
+S.D. dependent var  :    7.036366  Degrees of Freedom    : 1406
+Lag coeff. (Lambda) :    0.485372
+
+R-squared           :    0.339860  R-squared (BUSE)      : - 
+Sq. Correlation     : -            Log likelihood        :-4478.101679
+Sigma-square        :     32.6838  Akaike info criterion :      8968.2
+S.E of regression   :     5.71698  Schwarz criterion     :     8999.72
+
+-----------------------------------------------------------------------------
+       Variable       Coefficient     Std.Error       z-value    Probability
+-----------------------------------------------------------------------------
+          CONSTANT       3.63152        2.07466        1.75041     0.08005
+              RD80       3.62419        0.22812        15.8872     0.00000
+              UE90     0.0282279      0.0745218       0.378788     0.70485
+              DV90       0.55578       0.130415        4.26162     0.00002
+              PS90        1.8655       0.239213        7.79847     0.00000
+              MA90    -0.0187204      0.0548882      -0.341064     0.73306
+            LAMBDA      0.485372      0.0511675        9.48595     0.00000
+-----------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+DIAGNOSTICS FOR HETEROSKEDASTICITY 
+RANDOM COEFFICIENTS
+TEST                                     DF      VALUE        PROB
+Breusch-Pagan test                       5       634.5644     0.00000
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE 
+SPATIAL ERROR DEPENDENCE FOR WEIGHT MATRIX : southrk
+TEST                                     DF      VALUE        PROB
+Likelihood Ratio Test                    1        73.3241     0.00000
+============================== END OF REPORT ================================
+

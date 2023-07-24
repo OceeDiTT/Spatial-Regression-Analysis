@@ -1,0 +1,57 @@
+>>03/14/23 03:43:01
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES ESTIMATION
+Data set            :  south
+Dependent Variable  :        HR90  Number of Observations: 1412
+Mean dependent var  :      9.5493  Number of Variables   :    6
+S.D. dependent var  :     7.03637  Degrees of Freedom    : 1406 
+
+R-squared           :    0.309158  F-statistic           :     125.839
+Adjusted R-squared  :    0.306701  Prob(F-statistic)     :           0
+Sum squared residual:     48295.9  Log likelihood        :    -4497.37
+Sigma-square        :     34.3499  Akaike info criterion :     9006.75
+S.E. of regression  :     5.86088  Schwarz criterion     :     9038.26
+Sigma-square ML     :     34.2039
+S.E of regression ML:     5.84841
+
+-----------------------------------------------------------------------------
+       Variable      Coefficient      Std.Error    t-Statistic   Probability
+-----------------------------------------------------------------------------
+          CONSTANT       8.96254        1.78134        5.03136     0.00000
+              RD90       4.58779        0.21457        21.3813     0.00000
+              PS90        1.9559       0.205401        9.52235     0.00000
+              UE90     -0.524402      0.0700278       -7.48849     0.00000
+              DV90       0.46159       0.115173        4.00781     0.00006
+              MA90    -0.0494819      0.0489015       -1.01187     0.31177
+-----------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS  
+MULTICOLLINEARITY CONDITION NUMBER   30.863233
+TEST ON NORMALITY OF ERRORS
+TEST                  DF           VALUE             PROB
+Jarque-Bera            2          2833.4241          0.00000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY  
+RANDOM COEFFICIENTS
+TEST                  DF           VALUE             PROB
+Breusch-Pagan test     5           515.0765          0.00000
+Koenker-Bassett test   5           124.2738          0.00000
+SPECIFICATION ROBUST TEST
+TEST                  DF           VALUE             PROB
+White                 20           242.8060          0.00000
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE   
+FOR WEIGHT MATRIX : southrk
+   (row-standardized weights)
+TEST                          MI/DF        VALUE          PROB
+Moran's I (error)             0.0899        9.8643        0.00000
+Lagrange Multiplier (lag)       1          71.6961        0.00000
+Robust LM (lag)                 1           4.7738        0.02890
+Lagrange Multiplier (error)     1          89.3048        0.00000
+Robust LM (error)               1          22.3825        0.00000
+Lagrange Multiplier (SARMA)     2          94.0786        0.00000
+============================== END OF REPORT ================================
+
+
+
