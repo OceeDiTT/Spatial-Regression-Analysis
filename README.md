@@ -1,2 +1,2 @@
-# Oluoma-C.C.-Spatial-Regression-Analysis
+# Spatial-Regression-Analysis
  
